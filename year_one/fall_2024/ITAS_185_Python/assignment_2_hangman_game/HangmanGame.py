@@ -8,6 +8,7 @@
 
 import random
 import string
+import os
 
 class HangmanGame:
     
@@ -58,9 +59,12 @@ class HangmanGame:
         Returns:
             list: list of words from 'hangman.txt'
         """
-        with open("hangman.txt") as read_info:
-            read_info = read_info.readlines()
-            word_list = [word.strip() for word in read_info]
+        base_path = os.path.dirname(__file__)  
+        full_path = os.path.join(base_path, "hangman.txt")
+
+        with open(full_path, 'r') as read_info:
+            lines = read_info.readlines()
+            word_list = [word.strip() for word in lines]
             return word_list
                 
     def select_word(self):
