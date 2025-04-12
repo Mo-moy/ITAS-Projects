@@ -1,0 +1,40 @@
+I don't know how to actuaaly write this but I will try.
+
+General stuff:
+
+    I got the svg background from somewhere but I cannot find the website anymore, but the only thing I change is the gradient colour for each pages and trying to make it into the background.
+
+    Most images that are being used are AI generated using Ieogram to make the fake artist, places, and the venue.
+
+    The website is also heavily inspired or probably a cheap copy of Summer Sonic 2024 website: https://www.summersonic.com/en/
+
+    I was planning the shrinking navbar and adding a translucent background when you scroll, but I scrapped that since I don't know javascript. So I just left it as a translucent background( rgba(0, 0, 0, 0.50) ) for better readability.
+
+Index/Home: 
+
+    The images in the sponsor part in the index.html are just fake companies from video games, and tv-show.
+
+    For the spotify widget, I just look up at the Spotify documentation on putting their widget and website, so I put the embedded code in index.html with Mongolian Throat singing playlist.
+
+    Then added a buy ticket button which will lead to the ticket tab.
+
+Tickets:
+
+    I added three butttons that will lead to each categories which are passes, lodgings, and add-on.
+
+    I used cards to display the images, description and prices which is presented in the button, the link for those only led to https://www.ticketmaster.ca/, so It make feel like your actually purchasing a ticket even if it led you to the home page of Ticketmaster.
+
+Timetable:
+
+    I use a timetable maker to create my timetable and then go to Canva to edit the background and the fonts nad export it into png since the timetable was printed out as a pdf.
+
+Contact:
+
+    I added some Contact text to make to try and make it professional.
+
+    I also took the form from assignment 2 to make the contact us form which will submit into the php tthat you provided.
+
+About:
+
+    I just chatgpt the all of those paragraph and then used ideogram again to make the see you in 2041 image.
+    
